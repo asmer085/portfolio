@@ -10,7 +10,7 @@ function Home() {
         <p className="title">Computer Science student</p>
       </div>
 
-      <div className="section about-me">
+      <div className="section about-me project-item">
         <h2 className="section-title">About Me</h2>
         <p>
         As a software engineering student with a strong background in mathematics, 
@@ -28,7 +28,7 @@ function Home() {
           <li className="skill">HTML</li>
           <li className="skill">CSS</li>
           <li className="skill">React</li>
-          <li className="skill">Redux</li>
+          <li className="skill">C++</li>
           <li className="skill">Git</li>
           <li className="skill">Django</li>
           <li className="skill">OCaml</li>
@@ -42,7 +42,7 @@ function Home() {
         <div className="project-item">
           <h3 className="project-title">Project "Hero"</h3>
           <p className="project-description">
-            This project is in progress with my colleagues, my part is mostly developing a RESTful API.
+            This project is in progress with my colleagues.
           </p>
           <div className="project-links">
             <a className="project-link" href="https://github.com/asmer085/heroj_dws-GRUPA-3">GitHub(private)</a>
@@ -53,7 +53,7 @@ function Home() {
 
       <div className="section education">
         <h2 className="section-title">Education</h2>
-        <div className="education-item">
+        <div className="education-item project-item">
           <h3 className="education-title">University of Sarajevo</h3>
           <p className="education-date">2020 - PRESENT</p>
           <p className="education-description">
@@ -65,15 +65,15 @@ function Home() {
 
       <div className="section contact">
         <h2 className="section-title">Contact</h2>
-        <div className="contact-item">
+        <div className="contact-item project-item">
           <span className="contact-label">Email:</span>
-          <a className="contact-link" href="mailto:john@example.com">asmerkarabeg61@gmail.com</a>
+          <a className="contact-link" href="mailto:asmerkarabeg61@gmail.com">asmerkarabeg61@gmail.com</a>
         </div>
-        <div className="contact-item">
+        <div className="contact-item project-item">
           <span className="contact-label">Phone:</span>
           <span className="contact-link">+387603226681</span>
         </div>
-        <div className="contact-item">
+        <div className="contact-item project-item">
           <span className="contact-label">LinkedIn:</span>
           <a className="contact-link" href="https://www.linkedin.com/in/asmer-karabeg-6ba619269/">linkedin.com/in/asmerkarabeg</a>
         </div>
