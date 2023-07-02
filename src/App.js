@@ -1,22 +1,35 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import { ThemeContext } from './contexts/ThemeContext';
+import { Main, ProjectPage } from './pages';
+import { BackToTop } from './components';
+import ScrollToTop from './utils/ScrollToTop';
+
 import './App.css';
-import Home from './components/Home';
-// import Projects from './components/Projects';
-// import Contact from './components/Contact';
-import Nav from './components/Nav';
+
+function RedirectToMain() {
+  return <Route render={() => <Main />} />;
+}
 
 function App() {
+  const { theme } = useContext(ThemeContext);
+
+  console.log("%cDEVELOPER PORTFOLIO", `color:${theme.primary}; font-size:50px`);
+
   return (
-    <Router>
-      <div className="App">
-        <Nav />
+    <div className="app">
+      <Router>
+        <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Main />} />
+          <Route path="/projects" element={<ProjectPage />} />
+
+          <Route path="*" element={<RedirectToMain />} />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+      <BackToTop />
+    </div>
   );
 }
 
