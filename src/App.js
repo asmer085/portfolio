@@ -9,7 +9,11 @@ import ScrollToTop from './utils/ScrollToTop';
 import './App.css';
 
 function RedirectToMain() {
-  return <Route render={() => <Main />} />;
+  return (
+    <Routes>
+      <Route render={() => <Main />} />
+    </Routes>
+    );
 }
 
 function App() {
