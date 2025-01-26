@@ -1,0 +1,21 @@
+
+export const technologies = [
+    "TypeScript",
+    "React",   
+    "Angular",
+    "Styled-Components",
+    "Node.js",
+    "C#",
+    ".NET",
+    "Python",
+    "Django",
+    "Java",
+    "Spring Boot",
+    "C++",
+    "Kotlin",
+    "Racket",
+    "OCaml",
+    "MongoDB",
+    "SQL",
+    "Git",
+]
