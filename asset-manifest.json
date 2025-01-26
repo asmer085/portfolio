@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.5608666e.js",
+    "static/media/contact.png": "/portfolio/static/media/contact.cf75909e1985b9ef3db2.png",
+    "static/media/profile.png": "/portfolio/static/media/profile.6ba60d21b552b27c972e.png",
+    "static/media/shaped-profile.png": "/portfolio/static/media/shaped-profile.ec0665dac5a4485ee7a4.png",
+    "static/media/hero.jpg": "/portfolio/static/media/hero.16eb4ffffa3f0c942c07.jpg",
+    "static/media/AsmerKarabegCV.pdf": "/portfolio/static/media/AsmerKarabegCV.47e6c0788ff0fd98ed56.pdf",
+    "static/media/xapp.jpg": "/portfolio/static/media/xapp.66232a43d554801d765e.jpg",
+    "static/media/sports.avif": "/portfolio/static/media/sports.0efedee20d3740ef7162.avif",
+    "static/media/2048.jpg": "/portfolio/static/media/2048.5e28a6aeb1be8aef900b.jpg",
+    "static/media/en.svg": "/portfolio/static/media/en.1fa1bd7899270f986a4e6d8b9ba5afa1.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/pt.svg": "/portfolio/static/media/pt.aedb4fa86fa264a5eda3ce6f58bece66.svg",
+    "main.5608666e.js.map": "/portfolio/static/js/main.5608666e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5608666e.js"
+  ]
+}
